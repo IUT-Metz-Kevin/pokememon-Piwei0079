@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PokeMemon</title>
     <link
       rel="stylesheet"
@@ -18,11 +17,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
-    <script type="module" src="main.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
   </head>
-
-  <body class="bg-dark text-light">
+<body class="bg-dark text-light">
     <div class="container mt-5 text-center">
       <h1 class="display-4 mb-5">PokeMemon Game</h1>
       <h2 class="mb-5">
@@ -53,72 +51,7 @@
         <div class="col-md-8">
           <!-- GRILLE DE JEU -->
           <div id="grille_de_jeu" class="row row-cols-4">
-            <div class="col box">
-              <!-- POUR L'EXEMPLE -->
-              <img
-                src="https://img.pokemondb.net/sprites/scarlet-violet/normal/venusaur.png"
-                class="pokemon"
-              />
-            </div>
-
-            <div class="col box">
-              <img src="./assets/bush.webp" class="bush" />
-            </div>
-
-            <div class="col box">
-              <img src="./assets/bush.webp" class="bush" />
-            </div>
-
-            <div class="col box">
-              <img src="./assets/bush.webp" class="bush" />
-            </div>
-
-            <div class="col box">
-              <img src="./assets/bush.webp" class="bush" />
-            </div>
-
-            <div class="col box">
-              <img src="./assets/bush.webp" class="bush" />
-            </div>
-
-            <div class="col box">
-              <!-- POUR L'EXEMPLE -->
-              <img
-                src="https://img.pokemondb.net/sprites/scarlet-violet/normal/pikachu.png"
-                class="pokemon"
-              />
-            </div>
-
-            <div class="col box">
-              <img src="./assets/bush.webp" class="bush" />
-            </div>
-
-            <div class="col box">
-              <!-- POUR L'EXEMPLE -->
-              <img
-                src="https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png"
-                class="pokemon"
-              />
-              <img src="./assets/pokeball.png" class="pokeball" />
-            </div>
-
-            <div class="col box">
-              <!-- POUR L'EXEMPLE -->
-              <img
-                src="https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png"
-                class="pokemon"
-              />
-              <img src="./assets/pokeball.png" class="pokeball" />
-            </div>
-
-            <div class="col box">
-              <img src="./assets/bush.webp" class="bush" />
-            </div>
-
-            <div class="col box">
-              <img src="./assets/bush.webp" class="bush" />
-            </div>
-          </div>
+            
           <!-- FIN DE GRILLE DE JEU -->
         </div>
       </div>
@@ -128,10 +61,9 @@
       <span class="badge rounded-pill bg-primary"> Pokemons capturés </span>
       <div class="liste_pokemons_captures">
         <!-- POUR L'EXEMPLE -->
-        <img
-          src="https://img.pokemondb.net/sprites/scarlet-violet/normal/charizard.png"
-        />
+        
       </div>
     </div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
